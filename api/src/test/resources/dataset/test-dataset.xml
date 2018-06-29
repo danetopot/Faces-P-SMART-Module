@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+
+	<person person_id="315230" gender="F" birthdate="1985-09-30 12:34:56.7" birthdate_estimated="0" dead="false" creator="1" date_created="2013-03-01 12:34:56.7" voided="false" uuid="3c9c0642-2318-11e8-b467-0ed5f89f718b"/>
+	<person person_id="315231" gender="F" birthdate="2000-09-30 12:34:56.7" dead="false" creator="1" birthdate_estimated="0" date_created="2008-08-15 15:46:47.0" voided="false" uuid="3c9c0782-2318-11e8-b467-0ed5f89f718b"/>
+	<person person_id="315232" gender="M" birthdate="2002-09-30 12:34:56.7" dead="false" creator="1" birthdate_estimated="0" date_created="2008-08-15 15:57:09.0" voided="false" uuid="33b6abe4-2319-11e8-b467-0ed5f89f718b"/>
+
+
+	<person_name person_name_id="1001" preferred="true" person_id="315230" prefix="Mrs" given_name="RUGUT" middle_name="PSMART" family_name="TEST" family_name_suffix="Esq." creator="1" date_created="2005-09-22 00:00:00.0" voided="false" void_reason="" uuid="3c9bf31e-2318-11e8-b467-0ed5f89f718b"/>
+	<person_name person_name_id="1002" preferred="true" person_id="315231" given_name="Collet" middle_name="Test" family_name="Chebaskwony" creator="1" date_created="2006-01-18 00:00:00.0" voided="false" void_reason="" uuid="3c9bf6c0-2318-11e8-b467-0ed5f89f718b"/>
+	<person_name person_name_id="1003" preferred="true" person_id="315232" given_name="Anet" middle_name="Test" family_name="Oloo" creator="1" date_created="2006-01-18 00:00:00.0" voided="false" void_reason="" uuid="3c9bfc24-2318-11e8-b467-0ed5f89f718b"/>
+	<patient patient_id="315230" creator="1" date_created="2005-09-22 00:00:00.0" changed_by="1" date_changed="2008-08-18 12:29:59.0" voided="false" void_reason=""/>
+	<!-- <patient patient_id="100002" creator="1" date_created="2006-01-18 00:00:00.0" changed_by="1" date_changed="2008-08-18 12:25:31.0" voided="false" void_reason=",,,,"/>
+	<patient patient_id="100003" creator="1" date_created="2006-01-18 00:00:00.0" changed_by="1" date_changed="2008-08-18 12:25:57.0" voided="false" void_reason=""/>
+	-->
+	<patient_identifier_type patient_identifier_type_id="30" name="HEI UNIQUE NUMBER" description="Hei Unique Number" format="" check_digit="false" creator="1" date_created="2005-09-22 00:00:00.0" required="false" validator="" retired="false" uuid="0691f522-dd67-4eeb-92c8-af5083baf338"/>
+	<patient_identifier_type patient_identifier_type_id="40" name="NATIONAL ID" description="National ID" format="" check_digit="false" creator="1" date_created="2005-09-22 00:00:00.0" required="false" retired="false" uuid="49af6cdc-7968-4abb-bf46-de10d7f4859f"/>
+	<patient_identifier_type patient_identifier_type_id="50" name="UNIQUE PATIENT NUMBER" description="Unique Patient Number" format="" check_digit="false" creator="1" date_created="2008-08-15 15:59:20.0" required="false" format_description="" validator="" retired="true" retired_by="1" date_retired="2008-08-15 00:00:00.0" retire_reason="test" uuid="05ee9cf4-7242-4a17-b4d4-00f707265c8a"/>
+	<patient_identifier_type patient_identifier_type_id="60" name="GODS NUMBER" description="GODS NUMBER" format="" check_digit="false" creator="1" date_created="2008-08-15 15:59:20.0" required="false" format_description="" validator="" retired="false" uuid="9aedb9ae-1cbd-11e8-accf-0ed5f89f718b"/>
+	<patient_identifier_type patient_identifier_type_id="70" name="SMART CARD NUMBER" description="SMART CARD NUMBER" format="" check_digit="false" creator="1" date_created="2008-08-15 15:59:20.0" required="false" format_description="" validator="" retired="false" uuid="8f842498-1c5b-11e8-accf-0ed5f89f718b"/>
+	<patient_identifier_type patient_identifier_type_id="80" name="HTS NUMBER" description="HTS NUMBER" format="" check_digit="false" creator="1" date_created="2008-08-15 15:59:20.0" required="false" format_description="" validator="" retired="false" uuid="e6af3782-1cb3-11e8-accf-0ed5f89f718b"/>
+	<patient_identifier_type patient_identifier_type_id="90" name="OpenMRS Identification Number" description="Unique number used in OpenMRS" format="" check_digit="true" creator="1" date_created="2005-09-22 00:00:00.0" required="false" validator="org.openmrs.patient.impl.LuhnIdentifierValidator" retired="false" uuid="dfacd928-0370-4315-99d7-6ec1c9f7ae76"/>
+	<patient_identifier patient_identifier_id="100" patient_id="315230" identifier="12345242" identifier_type="60" preferred="1" location_id="1" creator="1" date_created="2005-09-22 00:00:00.0" voided="false" void_reason="" uuid="3c9bfe2c-2318-11e8-b467-0ed5f89f718b"/>
+	<patient_identifier patient_identifier_id="102" patient_id="315230" identifier="101-6945" identifier_type="80" preferred="0" location_id="1" creator="1" date_created="2005-09-22 00:00:00.0" voided="false" void_reason="" uuid="3c9bff8a-2318-11e8-b467-0ed5f89f718b"/>
+	<patient_identifier patient_identifier_id="103" patient_id="315232" identifier="12345Kru" identifier_type="30" preferred="0" location_id="3" creator="1" date_created="2008-08-18 11:44:54.0" voided="false" void_reason="" uuid="3c9c00c0-2318-11e8-b467-0ed5f89f718b"/>
+	<!-- <patient_identifier patient_identifier_id="104" patient_id="100002" identifier="6TS-4123" identifier_type="70" preferred="0" location_id="1" creator="1" date_created="2006-01-18 00:00:00.0" voided="false" void_reason="" uuid="3c9c01e2-2318-11e8-b467-0ed5f89f718b"/>
+	<patient_identifier patient_identifier_id="105" patient_id="100002" identifier="7TU-8456" identifier_type="80" preferred="1" location_id="1" creator="1" date_created="2006-01-18 00:00:00.0" voided="false" void_reason="" uuid="3c9c0306-2318-11e8-b467-0ed5f89f718b"/> -->
+	<patient_identifier patient_identifier_id="106" patient_id="315230" identifier="M4V3VD" identifier_type="90" preferred="0" location_id="1" creator="1" date_created="2006-01-18 00:00:00.0" voided="false" void_reason="" uuid="3c9c0304-2318-11e8-b467-0ed5f89f718b"/>
+	<relationship_type relationship_type_id="10" a_is_to_b="Doctor" b_is_to_a="Patient" preferred="0" weight="0" description="Relationship from a primary care provider to the patient" creator="1" date_created="2007-05-04 09:59:22.0" retired="false" uuid="33b6af54-2319-11e8-b467-0ed5f89f718b"/>
+	<relationship_type relationship_type_id="20" a_is_to_b="Parent" b_is_to_a="Child" preferred="0" weight="0" description="parent and child" creator="1" date_created="2008-08-15 15:55:18.0" retired="false" uuid="8d91a210-c2cc-11de-8d13-0010c6dffd0f"/>
+	<relationship relationship_id="10" person_a="100001" relationship="10" person_b="7" creator="1" date_created="2008-08-18 11:50:15.0" voided="false" uuid="33b6b1b6-2319-11e8-b467-0ed5f89f718b"/>
+	<relationship relationship_id="11" person_a="100001" relationship="20" person_b="100002" creator="1" date_created="2008-08-18 11:53:50.0" voided="false" uuid="33b6b440-2319-11e8-b467-0ed5f89f718b"/>
+
+</dataset>
